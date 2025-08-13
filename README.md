@@ -206,9 +206,9 @@ Validated on industry-standard benchmarks:
 
 | Application | Depth Achieved | Cost Reduction | Novel Solutions |
 |-------------|---------------|----------------|-----------------|
-| Drug Discovery | 147 levels | 95% | +15% |
-| Financial Modeling | 127 levels | 94% | +12% |
-| Climate Simulation | 89 levels | 96% | +18% |
+| Drug Discovery | 100+ levels | 95% | +15% |
+| Financial Modeling | 100+ levels | 94% | +12% |
+| Climate Simulation | 80+ levels | 96% | +18% |
 
 ## Contributing
 
