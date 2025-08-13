@@ -64,7 +64,7 @@ NAG™ solves these through intelligent agent neurons that:
 This is a **DOCUMENTATION-ONLY** repository for NAG™ technology.
 
 **No source code is published** - all implementation details are proprietary and protected by:
-- US Provisional Patents (Filed Dec 2024 & Jan 2025)
+- US Provisional Patents (Filed 12/08/2025)
 - Trade Secret Protection
 - Confidentiality Agreements
 
@@ -113,8 +113,8 @@ Currently in stealth mode. Contribution guidelines will be published upon public
 ## Patents & Legal
 
 Protected by US Provisional Patents:
-- Core System Architecture (Dec 2024)
-- Neural Network Implementation (Jan 2025)
+- Core System Architecture (Filed 12/08/2025)
+- Neural Network Implementation (Filed 12/08/2025)
 
 NAG™ is a registered trademark.
 
