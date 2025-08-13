@@ -1,0 +1,27 @@
+# NO CODE FILES ALLOWED
+*.py
+*.sh
+*.js
+*.ts
+*.go
+*.java
+*.c
+*.cpp
+*.rs
+*.rb
+
+# Secrets
+.env
+*.key
+*.pem
+secrets/
+parameters.json
+thresholds.yaml
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Only documentation allowed
+# *.md files are permitted
