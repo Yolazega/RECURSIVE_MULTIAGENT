@@ -5,7 +5,7 @@
 ### What's Breaking Enterprise AI:
 Every LLM API call consumes tokens - the "fuel" of AI. Enterprises face:
 - **Exponential Token Explosion**: Simple task → 1,000 tokens. Complex task → 1,000,000+ tokens
-- **Uncontrolled Cascading**: Each agent spawns more agents, each consuming tokens independently
+- **Uncontrolled Cascading**: Each API call triggers more API calls, each consuming tokens independently
 - **No Predictability**: CFOs can't budget when costs vary 10,000% between tasks
 - **Waste at Scale**: 60-80% of tokens spent on redundant or failed attempts
 
@@ -19,18 +19,18 @@ Trading Firm: Real-time analysis: 50M tokens/day = $15M/year
 ## NAG'S MATHEMATICAL BREAKTHROUGH
 
 ### The Core Innovation:
-NAG implements **Controlled Recursive Spawning** with mathematical convergence guarantees:
+NAG implements **Controlled Recursive API Orchestration** with mathematical convergence guarantees:
 
 ```
-Traditional: Cost = Unknown × Agents × Depth × Retries = EXPLOSION
+Traditional: Cost = Unknown × API_Calls × Depth × Retries = EXPLOSION
 NAG:        Cost ≤ Initial_Budget × Convergence_Factor = GUARANTEED
 ```
 
 ### How NAG Controls the Chaos:
-1. **Intelligent Spawn Decisions**: Only creates agents when ROI > threshold
-2. **Depth Taxation**: Exponentially increasing cost prevents runaway recursion  
-3. **Budget Envelopes**: Each agent inherits fraction, preventing overspend
-4. **Convergence Proof**: Mathematical guarantee total cost stays bounded
+1. **Intelligent API Call Decisions**: Only triggers additional API calls when ROI > threshold
+2. **Depth Taxation**: Exponentially increasing cost prevents runaway API cascades  
+3. **Budget Envelopes**: Each API call branch inherits fraction, preventing overspend
+4. **Convergence Proof**: Mathematical guarantee total API costs stay bounded
 
 ## PROVEN TEST RESULTS
 
@@ -43,11 +43,11 @@ NAG:        Cost ≤ Initial_Budget × Convergence_Factor = GUARANTEED
 
 **Token Reduction Achievement:**
 ```
-Simple Query:      80% reduction (1 agent vs 5 typical)
-Data Analysis:     75% reduction (1 agent vs 4 typical)
-Market Research:   60% reduction (4 agents vs 10 typical)
-Complex Innovation: 85% reduction (6 agents vs 40 typical)
-Breakthrough:      95% reduction (5 agents vs 100+ typical)
+Simple Query:      80% reduction (1 API call vs 5 typical)
+Data Analysis:     75% reduction (1 API call vs 4 typical)
+Market Research:   60% reduction (4 API calls vs 10 typical)
+Complex Innovation: 85% reduction (6 API calls vs 40 typical)
+Breakthrough:      95% reduction (5 API calls vs 100+ typical)
 ```
 
 **Budget Control Excellence:**
@@ -56,16 +56,16 @@ Breakthrough:      95% reduction (5 agents vs 100+ typical)
 - $100 budget → $100K budget: Maintained efficiency
 
 **Speed Performance:**
-- Average: 0.246s per agent decision
+- Average: 0.246s per API orchestration decision
 - Complex tasks: < 1.3 seconds total
-- 10,000+ agent orchestration: Still sub-second decisions
+- 10,000+ API call orchestration: Still sub-second decisions
 
 ## REAL-WORLD IMPACT
 
 ### Before NAG:
 ```
 Task: "Analyze market trends and create strategy"
-- Traditional: 50-200 agents spawn randomly
+- Traditional: 50-200 API calls triggered randomly
 - Token Cost: $500-5,000 (unpredictable)
 - Time: 5-30 minutes
 - Success: 55% (many failed paths)
@@ -74,7 +74,7 @@ Task: "Analyze market trends and create strategy"
 ### With NAG:
 ```
 Same Task with NAG:
-- Controlled: 4-6 agents (optimal spawning)
+- Controlled: 4-6 API calls (optimal orchestration)
 - Token Cost: $50-100 (guaranteed maximum)
 - Time: 1.09 seconds
 - Success: 93.6%
